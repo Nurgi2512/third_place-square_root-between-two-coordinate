@@ -7,7 +7,8 @@ scores = [80, 90, 90, 100, 100, 80]
 data = list(zip(names, scores))
 
 ## Contoh cara mengakses nilai 
-```for name, score in data:  
+```python
+for name, score in data:  
     print(f"{name} memiliki skor {score}")
 df_dict = {}  
 for i in range(len(names)):  
@@ -28,3 +29,5 @@ print(f"The third winner: {third_place_names[0]}")
         names_string = ", ".join(third_place_names)  
         print(f"The third winners: {names_string}")  
 third_place(names, scores)
+
+
